@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Demo para aprender</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="classes.js" type="module"></script>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-sm  navbar-light fixed-top" style="background-color: darkorange;">
+        <a class="navbar-brand" href="#">
+            <img src="resources/images/logoH.png" alt="Logo" style="height: auto; width: 140px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Links pagina-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <div class="navbar-nav-scroll">
+                <ul class="navbar-nav db-navbar-nav flex-row ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ubicación</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="www.facebook.com" target="_blank">
+                        <button class="btn my-2 my-sm-0" aria-label="Facebook">
+                            <img src="resources/images/fb.png" alt="Facebook" width="20px" height="auto">
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="www.twitter.com" target="_blank">
+                        <button class="btn my-2 my-sm-0" aria-label="Twitter">
+                            <img src="resources/images/tw.png" alt="Twitter" width="20px" height="auto">
+                        </button>
+                    </a>
+
+                </li>
+            </ul>
+
+
+
+
+        </div>
+        <!--fin links pag-->
+
+    </nav>
+    
+</header>
+
+<body>
+    <div class="container bg-primary">
+        <p>texto del body aqui</p>
+    </div>
+    <div id="app">
+        
+    </div>
+    <script src="promises.js"></script>
+</body>
+
+</html>
